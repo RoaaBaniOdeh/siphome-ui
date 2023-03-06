@@ -24,13 +24,22 @@ header {
     text-align: center;
     padding: 2em ;
 }
+nav{
 
+    display: flex;
+padding-left: 150px;
+   top:0;
+   width: 100%;
+   overflow: auto;
+   height: auto;
+
+}
 nav ul {
     opacity: 0.4;
     list-style: none;
     padding: 0;
     display: flex;
-   
+ 
 }
 
 nav li {
@@ -40,14 +49,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #707070;
+    color: #630c0c;
     font-weight: 400;
 }
 .nav-right {
-   
     text-align: left;
 }
 .div-nav-right{
+    padding-left:300px;
      display: flex;
      margin-left: 60px;
 }
@@ -138,6 +147,8 @@ button:active{
 .second-img{
     top: 250px;
     left: 1rem;
+    padding-left: 230px;
+    padding-top:150px;
 z-index:8;
 opacity: 1;
 position: absolute;
@@ -145,10 +156,99 @@ position: absolute;
 
 
 
+.p-features{
+    
+    opacity: 1;
+    color: rgba(96,107,134,1);
+    font-family: "Inter-MediumItalic";
+    font-size: 20px;
+    font-weight: 500;
 
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 32px;
+    
+}
 
-
-
-
-
-
+.div-features{
+padding-top: 10rem;
+    display: block;
+    margin: 3rem;
+}
+.subTitle{
+opacity: 1;
+color: rgba(38,43,54,1);
+font-family: "Inter-Bold";
+font-size: 42px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+}
+.setPics{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.MeetSiphome{
+    display: flex;
+}
+/*
+*/
+.ss{
+    display: flex;
+   padding-top: 10rem;
+}
+.leftSide{
+max-width: 60%;
+margin: 2rem ;
+}
+.rightSide{
+    max-width: 40%;
+    margin: 3rem;
+   display: flex;
+   justify-content: space-between;
+   flex-flow:  column wrap;
+   
+}
+.rightSide{
+    max-width: 40%;
+    margin: 3rem;
+   display: flex;
+   justify-content: space-between;
+   flex-flow:  column wrap;
+   
+}
+.secBanner-img{
+    background-position: right;
+    background-image: url("img/img/blue.png");
+    background-size:contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.picSet{
+    padding-top: 90px;
+    Width:750px;
+Height:676px;
+}
+.titleDiv{
+opacity: 1;
+color: rgba(32,83,209,1);
+font-family: "Inter-Bold";
+font-size: 15px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 10px;
+text-align: left;
+text-transform: uppercase;
+}
+.subTitleDiv{
+    opacity: 1;
+color: #262B36;
+font-family: "Inter-Bold";
+font-size: 42px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 64px;
+}
