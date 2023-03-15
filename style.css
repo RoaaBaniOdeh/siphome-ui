@@ -253,7 +253,7 @@ text-align: left;
 line-height: 64px;
 }
 .moreSystem{
-    padding: 20rem;
+    padding:  10rem  20rem ;
     display: flex;
     justify-content: space-between;
     flex-flow:  column wrap;
@@ -309,4 +309,21 @@ align-items: center;
 .spicSlider{
   width: 60%;
     height: 60%;
+}
+.leftSideLastSection{
+    max-width: 40%;
+margin: 2rem ;
+}
+.womanPic{
+    padding-top: 5rem;
+}
+
+.name{
+    border-radius: 3px;
+border: 1px solid rgba(204,204,204, 1);
+opacity: 1;
+background-color: rgba(255,255,255, 1);
+}
+.hh{
+    opacity: 1;
 }
