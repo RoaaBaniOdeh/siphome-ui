@@ -327,3 +327,51 @@ background-color: rgba(255,255,255, 1);
 .hh{
     opacity: 1;
 }
+
+.finalrows{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    margin-bottom: 2rem;
+
+}
+.finalCol{   
+     display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+  margin-bottom: 2rem;
+}
+.aboutCOMP{
+    opacity: 1;
+color: #262B36;
+font-family: "Inter-Bold";
+font-size: 20px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 30px;
+}
+
+.colTitle{
+    opacity: 1;
+color: rgba(38,43,54,1);
+font-family: "Inter-Bold";
+font-size: 20px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+}
+.lastline{
+  opacity: 1;
+color: rgba(38,43,54,1);
+font-family: "Inter-Regular";
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: center;
+line-height: 28px;
+
+}
